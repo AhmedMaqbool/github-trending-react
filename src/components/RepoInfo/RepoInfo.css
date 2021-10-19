@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+.repo-box {
+  background-color: #0d1117;
+  border: 1px solid white;
+  width: 90%;
+  margin: auto;
+}
+
+.a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b {
+  display: flex;
+  margin-left: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+}
+
+.repo-description {
+  display: flex;
+  flex: 1;
+  margin-left: 10px;
+  height: 50px;
+}
+
+.d {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  height: 30px;
+  align-items: center;
+}
+
+.e {
+  display: flex;
+  /* background-color: aquamarine; */
+  margin-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+}
+
+.f {
+  /* background-color: blue; */
+  display: flex;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.today-star {
+  margin-right: 10px;
+  color: white;
+}
+
+.star-button {
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.repo-name {
+  color: #4e9df8;
+  text-decoration: none;
+}
+
+.repo-username {
+  color: #39a6ff;
+}
+
+.divider {
+  color: #4e9df8;
+}
+
+.repo-icon {
+  color: white;
+}
+
+span {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
